@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Text Shadow */
+        h1.shadow {
+            text-shadow: 2px 2px 5px gray;
+        }
+
+        h2.multishadow {
+            text-shadow: 2px 2px 3px red, 4px 4px 5px blue;
+        }
+
+        /* Box Shadow */
+        div.box1 {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            background-color: lightblue;
+            box-shadow: 5px 5px 10px gray;
+        }
+
+        div.box2 {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            background-color: lightgreen;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Text Indent */
+        p.indent1 {
+            text-indent: 50px;
+        }
+
+        p.indent2 {
+            text-indent: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="shadow">This is a Text Shadow Example</h1>
+    <h2 class="multishadow">This text has multiple shadows</h2>
+
+    <div class="box1">This is a box with shadow.</div>
+    <div class="box2">This is another box with soft shadow.</div>
+
+    <p class="indent1">
+        This paragraph is indented by 50px. Text-indent is used to create spacing at the beginning of the paragraph.
+    </p>
+
+    <p class="indent2">
+        This paragraph is indented by 100px. It shows a deeper indentation for demonstration.
+    </p>
+
+</body>
+
+</html>
